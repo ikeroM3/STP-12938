@@ -13,6 +13,7 @@
   --howered-nav-bar: #ff4c3c;
   --swipe-elements: rgba(58, 31, 9, 0.2);
 }
+
 :root {
   --font-family: 'Nunito', sans-serif;
   --second-family: 'Paytone One', sans-serif;
@@ -24,4 +25,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+
+  font-family: var(--font-family);
+  color: var(--black);
+  background-color: var(--background);
 }

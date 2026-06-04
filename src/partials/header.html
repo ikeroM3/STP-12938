@@ -1,0 +1,69 @@
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <picture>
+          <source
+            srcset="/img/logo/Frame@1x.png 1x, /img/logo/Frame@2x.png 2x"
+          />
+          <img
+            class="logo-icon"
+            src="/img/logo/Frame@2x.png"
+            alt="Merge Fruits"
+          />
+        </picture>
+      </a>
+
+      <ul class="list-nav">
+        <li class="item-list-nav">
+          <a class="item-link" href="#about">About the Game</a>
+        </li>
+        <li class="item-list-nav">
+          <a class="item-link" href="#how-to-play">How to Play</a>
+        </li>
+        <li class="item-list-nav">
+          <a class="item-link" href="#features">Features</a>
+        </li>
+        <li class="item-list-nav"><a class="item-link" href="#FAQ">FAQ</a></li>
+        <li class="item-list-nav">
+          <a class="item-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button class="burger-menu" type="button" aria-label="Open menu">
+        <svg
+          class="burger-icon burger-icon--open"
+          width="32"
+          height="24"
+          fill="currentColor"
+        >
+          <use href="/img/svg/sprite.svg#icon-icon-burger"></use>
+        </svg>
+        <svg
+          class="burger-icon burger-icon--close"
+          width="24"
+          height="24"
+          fill="currentColor"
+        >
+          <use href="/img/svg/sprite.svg#icon-icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<div class="burger-overlay" data-visible="close">
+  <div class="burger-panel">
+    <div class="burger-panel__top"></div>
+
+    <nav class="burger-nav">
+      <ul class="burger-list">
+        <li><a class="burger-link" href="#about">About the Game</a></li>
+        <li><a class="burger-link" href="#how-to-play">How to Play</a></li>
+        <li><a class="burger-link" href="#features">Features</a></li>
+        <li><a class="burger-link" href="#FAQ">FAQ</a></li>
+        <li><a class="burger-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

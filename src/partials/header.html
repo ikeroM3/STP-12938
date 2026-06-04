@@ -1,0 +1,71 @@
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <svg class="logo-icon" width="158" height="51">
+          <use href="/img/icons.svg#logo"></use>
+        </svg>
+      </a>
+
+      <ul class="list-nav">
+        <li class="item-list-nav">
+          <a class="item-link" href="#about">About the Game</a>
+        </li>
+        <li class="item-list-nav">
+          <a class="item-link" href="#how-to-play">How to Play</a>
+        </li>
+        <li class="item-list-nav">
+          <a class="item-link" href="#features">Features</a>
+        </li>
+        <li class="item-list-nav"><a class="item-link" href="#FAQ">FAQ</a></li>
+        <li class="item-list-nav">
+          <a class="item-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button
+        class="burger-menu"
+        type="button"
+        data-action="open"
+        aria-label="Open menu"
+      >
+        <svg class="burger-icon" width="40" height="40">
+          <use href="/img/icons.svg#menu"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- Бургер меню (поза хедером) -->
+<div class="burger-overlay" data-visible="close">
+  <div class="burger-panel">
+    <div class="burger-panel__top">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <svg class="logo-icon" width="70" height="70">
+          <use href="/img/icons.svg#logo"></use>
+        </svg>
+      </a>
+      <button
+        class="burger-close"
+        type="button"
+        data-action="close"
+        aria-label="Close menu"
+      >
+        <svg width="24" height="24">
+          <use href="/img/icons.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="burger-nav">
+      <ul class="burger-list">
+        <li><a class="burger-link" href="#about">About the Game</a></li>
+        <li><a class="burger-link" href="#how-to-play">How to Play</a></li>
+        <li><a class="burger-link" href="#features">Features</a></li>
+        <li><a class="burger-link" href="#FAQ">FAQ</a></li>
+        <li><a class="burger-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

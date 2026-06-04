@@ -1,11 +1,17 @@
-const openBtnEl = document.querySelector('[data-action="open"]');
-const closeBtnEl = document.querySelector('[data-action="close"]');
-const burgerMenuEl = document.querySelector('[data-visible]');
+const burgerBtn = document.querySelector('.burger-menu');
+const burgerOverlay = document.querySelector('.burger-overlay');
+const burgerUse = document.querySelector('.burger-icon use');
 
-openBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'open';
-});
+burgerBtn.addEventListener('click', () => {
+  const isOpen = burgerOverlay.dataset.visible === 'open';
 
-closeBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'close';
+  if (isOpen) {
+    burgerOverlay.dataset.visible = 'close';
+    burgerUse.setAttribute('href', '/img/svg/sprite.svg#icon-icon-burger');
+    burgerBtn.classList.remove('is-open');
+  } else {
+    burgerOverlay.dataset.visible = 'open';
+    burgerUse.setAttribute('href', '/img/svg/sprite.svg#icon-icon-close');
+    burgerBtn.classList.add('is-open');
+  }
 });

@@ -30,14 +30,22 @@
         </li>
       </ul>
 
-      <button
-        class="burger-menu"
-        type="button"
-        data-action="open"
-        aria-label="Open menu"
-      >
-        <svg class="burger-icon" width="24" height="24">
-          <use href="/img/svg/symbol-defs.svg#icon-icon-burger"></use>
+      <button class="burger-menu" type="button" aria-label="Open menu">
+        <svg
+          class="burger-icon burger-icon--open"
+          width="32"
+          height="24"
+          fill="currentColor"
+        >
+          <use href="/img/svg/sprite.svg#icon-icon-burger"></use>
+        </svg>
+        <svg
+          class="burger-icon burger-icon--close"
+          width="24"
+          height="24"
+          fill="currentColor"
+        >
+          <use href="/img/svg/sprite.svg#icon-icon-close"></use>
         </svg>
       </button>
     </nav>
@@ -46,30 +54,7 @@
 
 <div class="burger-overlay" data-visible="close">
   <div class="burger-panel">
-    <div class="burger-panel__top">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <picture>
-          <source
-            srcset="/img/logo/Frame@1x.png 1x, /img/logo/Frame@2x.png 2x"
-          />
-          <img
-            class="logo-icon"
-            src="/img/logo/Frame@1x.png"
-            alt="Merge Fruits"
-          />
-        </picture>
-      </a>
-      <button
-        class="burger-close"
-        type="button"
-        data-action="close"
-        aria-label="Close menu"
-      >
-        <svg width="24" height="24" fill="none" stroke="currentColor">
-          <use href="/img/svg/symbol-defs.svg#icon-icon-close"></use>
-        </svg>
-      </button>
-    </div>
+    <div class="burger-panel__top"></div>
 
     <nav class="burger-nav">
       <ul class="burger-list">

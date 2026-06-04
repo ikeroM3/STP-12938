@@ -23,7 +23,8 @@
 
 .logo-icon {
   width: 158px;
-  height: 51px;
+  height: auto;
+  display: block;
 }
 
 /* NAV LIST */
@@ -115,7 +116,7 @@
 
 .burger-panel__top .logo-icon {
   width: 56px;
-  height: 56px;
+  height: auto;
 }
 
 .burger-close {
@@ -167,8 +168,8 @@
   }
 
   .logo-icon {
-    width: 56px;
-    height: 56px;
+    width: 40px;
+    height: auto;
   }
 
   .list-nav {

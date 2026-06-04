@@ -2,9 +2,16 @@
   <div class="container">
     <nav class="nav">
       <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="logo-icon" width="158" height="51">
-          <use href="/img/icons.svg#logo"></use>
-        </svg>
+        <picture>
+          <source
+            srcset="/img/logo/Frame@1x.png 1x, /img/logo/Frame@2x.png 2x"
+          />
+          <img
+            class="logo-icon"
+            src="/img/logo/Frame@2x.png"
+            alt="Merge Fruits"
+          />
+        </picture>
       </a>
 
       <ul class="list-nav">
@@ -29,22 +36,28 @@
         data-action="open"
         aria-label="Open menu"
       >
-        <svg class="burger-icon" width="40" height="40">
-          <use href="/img/icons.svg#menu"></use>
+        <svg class="burger-icon" width="24" height="24">
+          <use href="/img/svg/symbol-defs.svg#icon-icon-burger"></use>
         </svg>
       </button>
     </nav>
   </div>
 </header>
 
-<!-- Бургер меню (поза хедером) -->
 <div class="burger-overlay" data-visible="close">
   <div class="burger-panel">
     <div class="burger-panel__top">
       <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="logo-icon" width="70" height="70">
-          <use href="/img/icons.svg#logo"></use>
-        </svg>
+        <picture>
+          <source
+            srcset="/img/logo/Frame@1x.png 1x, /img/logo/Frame@2x.png 2x"
+          />
+          <img
+            class="logo-icon"
+            src="/img/logo/Frame@1x.png"
+            alt="Merge Fruits"
+          />
+        </picture>
       </a>
       <button
         class="burger-close"
@@ -52,8 +65,8 @@
         data-action="close"
         aria-label="Close menu"
       >
-        <svg width="24" height="24">
-          <use href="/img/icons.svg#close"></use>
+        <svg width="24" height="24" fill="none" stroke="currentColor">
+          <use href="/img/svg/symbol-defs.svg#icon-icon-close"></use>
         </svg>
       </button>
     </div>

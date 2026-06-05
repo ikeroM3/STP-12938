@@ -75,19 +75,24 @@
 }
 
 .faq-answer {
-  display: none;
-  margin-top: 12px;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 0;
 
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
   text-align: left;
-  color: var(--card text);
+  color: var(--card-text);
+
+  transition:
+    max-height 500ms ease,
+    margin-top 500ms ease;
 }
 
 .faq-item--open .faq-answer {
-  display: block;
+  margin-top: 12px;
 }
 
 @media screen and (min-width: 1440px) {

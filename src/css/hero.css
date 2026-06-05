@@ -11,7 +11,6 @@
 .hero-wrapper {
   display: flex;
   flex-direction: column;
-
 }
 .hero-wrapper-text,
 .btn-wrapper {
@@ -133,7 +132,6 @@
       no-repeat;
     position: relative;
     height: 766px;
-    margin-bottom: 90px;
   }
   .hero-content {
     position: absolute;

@@ -10,10 +10,7 @@ faqButtons.forEach(button => {
 
       if (item !== currentItem) {
         item.classList.remove('faq-item--open');
-        iconUse.setAttribute(
-          'href',
-          './img/svg/sprite.svg#icon-faq-plus-circle'
-        );
+        iconUse.setAttribute('href', 'img/svg/sprite.svg#icon-faq-plus-circle');
       }
     });
 
@@ -22,12 +19,12 @@ faqButtons.forEach(button => {
     if (currentItem.classList.contains('faq-item--open')) {
       currentIconUse.setAttribute(
         'href',
-        './img/svg/sprite.svg#icon-faq-close-circle'
+        'img/svg/sprite.svg#icon-faq-close-circle'
       );
     } else {
       currentIconUse.setAttribute(
         'href',
-        './img/svg/sprite.svg#icon-faq-plus-circle'
+        'img/svg/sprite.svg#icon-faq-plus-circle'
       );
     }
   });

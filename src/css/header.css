@@ -225,3 +225,6 @@
     display: none;
   }
 }
+body:has(.burger-overlay[data-visible='open']) {
+  overflow: hidden;
+}

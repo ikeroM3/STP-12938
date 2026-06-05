@@ -3,6 +3,7 @@ import spritePath from './../img/svg/sprite.svg';
 const burgerBtn = document.querySelector('.burger-menu');
 const burgerOverlay = document.querySelector('.burger-overlay');
 const burgerUse = document.querySelector('.burger-icon use');
+const burgerLinks = document.querySelectorAll('.burger-overlay a');
 
 burgerBtn.addEventListener('click', () => {
   const isOpen = burgerOverlay.dataset.visible === 'open';
@@ -16,4 +17,12 @@ burgerBtn.addEventListener('click', () => {
     burgerUse.setAttribute('href', `${spritePath}#icon-close`);
     burgerBtn.classList.add('is-open');
   }
+});
+
+burgerLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    burgerOverlay.dataset.visible = 'close';
+    burgerUse.setAttribute('href', `${spritePath}#icon-burger`);
+    burgerBtn.classList.remove('is-open');
+  });
 });

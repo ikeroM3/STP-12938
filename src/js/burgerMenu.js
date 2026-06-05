@@ -7,11 +7,11 @@ burgerBtn.addEventListener('click', () => {
 
   if (isOpen) {
     burgerOverlay.dataset.visible = 'close';
-    burgerUse.setAttribute('href', 'img/svg/sprite.svg#icon-icon-burger');
+    burgerUse.setAttribute('href', '/img/svg/sprite.svg#icon-burger');
     burgerBtn.classList.remove('is-open');
   } else {
     burgerOverlay.dataset.visible = 'open';
-    burgerUse.setAttribute('href', 'img/svg/sprite.svg#icon-icon-close');
+    burgerUse.setAttribute('href', '/img/svg/sprite.svg#icon-close');
     burgerBtn.classList.add('is-open');
   }
 });

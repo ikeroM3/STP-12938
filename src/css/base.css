@@ -8,6 +8,12 @@
   --card-number-3: #edc1ec;
   --card-number-4: #f7ceea;
   --card-number-5: #ffd9e7;
+  --gradient-section-2: linear-gradient(
+    325deg,
+    #ffcc88 0%,
+    #ffa078 50.48%,
+    #ff7569 100%
+  );
   --hovered-card: #ff7569;
   --yellow-faq-icon: #ff9a3c;
   --howered-nav-bar: #ff4c3c;

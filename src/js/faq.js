@@ -1,3 +1,4 @@
+import spritePath from './../img/svg/sprite.svg';
 const faqButtons = document.querySelectorAll('.faq-question');
 
 faqButtons.forEach(button => {
@@ -10,10 +11,7 @@ faqButtons.forEach(button => {
 
       if (item !== currentItem) {
         item.classList.remove('faq-item--open');
-        iconUse.setAttribute(
-          'href',
-          './img/svg/sprite.svg#icon-faq-plus-circle'
-        );
+        iconUse.setAttribute('href', `${spritePath}#icon-faq-plus-circle`);
       }
     });
 
@@ -22,13 +20,10 @@ faqButtons.forEach(button => {
     if (currentItem.classList.contains('faq-item--open')) {
       currentIconUse.setAttribute(
         'href',
-        './img/svg/sprite.svg#icon-faq-close-circle'
+        `${spritePath}#icon-faq-close-circle`
       );
     } else {
-      currentIconUse.setAttribute(
-        'href',
-        './img/svg/sprite.svg#icon-faq-plus-circle'
-      );
+      currentIconUse.setAttribute('href', `${spritePath}#icon-faq-plus-circle`);
     }
   });
 });

@@ -4,6 +4,7 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M28 16h-23.333"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M13.333 25.333l-9.333-9.333 9.333-9.333"></path>
 </symbol>
+
 <symbol id="icon-play-market" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M11.2056 12.8944L0.102539 24.7567C0.103582 24.7588 0.103582 24.7619 0.104625 24.764C0.445633 26.0521 1.61361 27 3.00059 27C3.55538 27 4.07576 26.8488 4.52209 26.5843L4.55755 26.5633L17.0549 19.3042L11.2056 12.8944Z" fill="#EA4335" />
   <path d="M22.4379 10.8745L22.4275 10.8671L17.0318 7.71889L10.9531 13.164L17.0537 19.303L22.4202 16.1862C23.3608 15.674 24.0001 14.6756 24.0001 13.5251C24.0001 12.3809 23.3702 11.3878 22.4379 10.8745Z" fill="#FBBC04" />

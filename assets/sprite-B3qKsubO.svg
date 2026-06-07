@@ -14,8 +14,8 @@
 
 
 <symbol id="back-link-svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M17.4998 10H2.9165" stroke="#3A1F09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M8.33333 15.8333L2.5 9.99996L8.33333 4.16663" stroke="#3A1F09" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M17.4998 10H2.9165" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M8.33333 15.8333L2.5 9.99996L8.33333 4.16663" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 </symbol>
 
 

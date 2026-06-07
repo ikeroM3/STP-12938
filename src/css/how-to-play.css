@@ -158,4 +158,16 @@
   .how-to-play-swiper .card-how-to-play:hover {
     transform: translateY(20px);
   }
+  .how-to-play-swiper::before {
+    content: '';
+    position: absolute;
+    top: 52px; /* висота number кола (44px) + відступ від верху картки (28px) = центр кола */
+    left: 105px; /* половина ширини першої картки */
+    right: 105px;
+    height: 3px;
+
+    z-index: 0;
+    border-radius: 3px;
+    background: var(--Black, #3a1f09);
+  }
 }

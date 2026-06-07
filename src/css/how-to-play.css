@@ -170,4 +170,12 @@
     border-radius: 3px;
     background: var(--Black, #3a1f09);
   }
+  .back-link-svg path {
+    transition: stroke 0.3s ease;
+  }
+
+  .back-link:hover .back-link-svg path,
+  .back-link:focus .back-link-svg path {
+    stroke: var(--white);
+  }
 }

@@ -12,6 +12,10 @@
     background 0.3s ease,
     color 0.3s ease;
 }
+.header-privat {
+  box-shadow: -3px 4px 18px 0 rgba(212, 151, 65, 0.25);
+}
+
 .back-link:focus {
   background: var(--howered-nav-bar);
   color: var(--white);

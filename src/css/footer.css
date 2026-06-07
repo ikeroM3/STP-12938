@@ -22,6 +22,11 @@
   color: var(--white);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--yellow-faq-icon);
+}
+
 .footer-link::before {
   content: '';
   position: absolute;

@@ -11,6 +11,14 @@
   line-height: 1.19;
   color: var(--black);
 }
+.terms-date {
+  display: block;
+  margin-top: 4px;
+
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: none;
+}
 
 .terms-content {
   max-width: 335px;

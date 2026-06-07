@@ -92,6 +92,7 @@
 }
 
 .faq-item--open .faq-answer {
+  max-height: 200px;
   margin-top: 12px;
 }
 

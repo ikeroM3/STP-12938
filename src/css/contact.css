@@ -52,12 +52,6 @@
   text-decoration: underline;
 }
 
-.contact-icon {
-  fill: none;
-  stroke: currentColor;
-  top: 6px;
-}
-
 @media only screen and (min-width: 1440px) {
   .contact {
     padding: 100px 0;

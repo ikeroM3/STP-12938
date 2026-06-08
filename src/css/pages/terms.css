@@ -1,7 +1,9 @@
 .terms {
   padding: 50px 0;
 }
-
+.header-privat {
+  position: static;
+}
 .terms-title {
   margin-bottom: 32px;
 

@@ -2,7 +2,7 @@ import Swiper from 'swiper';
 import { FreeMode } from 'swiper/modules';
 import 'swiper/css';
 
-new Swiper('.how-to-play-swiper', {
+new Swiper('#how-to-play-swiper', {
   modules: [FreeMode],
   slidesPerView: 'auto',
   spaceBetween: 20,

@@ -38,6 +38,9 @@
   line-height: 46px;
   margin-bottom: 12px;
 }
+.about-the-game2 {
+  align-self: center;
+}
 .text_1 {
   color: var(--Black, #3a1f09);
   text-align: center;
@@ -59,10 +62,16 @@
   .about-the-game {
     width: 552px;
   }
+  .about-the-game2 {
+    text-align: end;
+  }
   .text_1 {
     text-align: left;
   }
   .logo-icon-mobile {
     margin-bottom: 0px;
+  }
+  .subtitle {
+    text-align: start;
   }
 }

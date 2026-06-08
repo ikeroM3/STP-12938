@@ -1,6 +1,11 @@
 .header {
   background: var(--background);
   padding: 12px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .container {
@@ -108,15 +113,15 @@
   fill: none;
 }
 
-.burger-menu.is-open .burger-icon--open {
+.burger-menu[data-state='open'] .burger-icon--open {
   display: none;
 }
 
-.burger-menu.is-open .burger-icon--close {
+.burger-menu[data-state='open'] .burger-icon--close {
   display: block;
 }
 
-.burger-menu.is-open .burger-icon {
+.burger-menu[data-state='open'] .burger-icon {
   width: 40px;
   height: 40px;
 }
@@ -128,11 +133,10 @@
   top: 84px;
   right: 0;
 
-  width: 250px;
-  height: 327px;
+  width: calc((100vw - 375px) / 2 + 250px);
 
   z-index: 1000;
-
+  background-color: var(--background);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;

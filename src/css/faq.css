@@ -91,8 +91,7 @@
     margin-top 500ms ease;
 }
 
-.faq-item--open .faq-answer {
-  max-height: 200px;
+[data-faq-item][data-open='true'] .faq-answer {
   margin-top: 12px;
 }
 

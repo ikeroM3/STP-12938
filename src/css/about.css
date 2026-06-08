@@ -41,6 +41,9 @@
 .about-the-game2 {
   align-self: center;
 }
+.about-game-cont {
+  text-align: center;
+}
 .text_1 {
   color: var(--Black, #3a1f09);
   text-align: center;
@@ -62,8 +65,8 @@
   .about-the-game {
     width: 552px;
   }
-  .about-the-game2 {
-    text-align: end;
+  .about-game-cont {
+    text-align: start;
   }
   .text_1 {
     text-align: left;

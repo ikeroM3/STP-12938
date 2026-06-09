@@ -108,3 +108,60 @@
   width: 28px;
   border-radius: 12px;
 }
+
+@media screen and (min-width: 1440px) {
+  .features {
+    padding: 100px 0;
+  }
+
+  .features-title {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 48px;
+    line-height: 1.13;
+  }
+
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    transform: none;
+  }
+
+  .features-card {
+    flex: 0 0 360px !important;
+    width: 360px !important;
+    height: 342px !important;
+    min-height: unset;
+    margin-right: 0 !important;
+
+    transition:
+      background-color 300ms ease,
+      color 300ms ease;
+    cursor: pointer;
+  }
+
+  .features-img {
+    margin: 0 auto 12px;
+  }
+
+  .features-card-title,
+  .features-card-text {
+    transition: color 300ms ease;
+  }
+
+  .features-card:hover,
+  .features-card:focus {
+    background-color: var(--hovered-card);
+  }
+
+  .features-card:focus .features-card-title,
+  .features-card:focus .features-card-text {
+    color: var(--white);
+  }
+
+  .features-pagination {
+    display: none;
+  }
+}

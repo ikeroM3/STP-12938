@@ -16,5 +16,11 @@ if (featuresSwiper) {
       el: '[data-features-pagination]',
       clickable: true,
     },
+
+    breakpoints: {
+      1440: {
+        enabled: false,
+      },
+    },
   });
 }

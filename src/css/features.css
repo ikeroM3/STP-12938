@@ -154,12 +154,12 @@
 
   .features-img {
     margin: 0 auto 12px;
-    transition: box-shadow 300ms ease;
+    transition: box-shadow 600ms ease;
   }
 
   .features-card-title,
   .features-card-text {
-    transition: color 300ms ease;
+    transition: color 600ms ease;
   }
 
   .features-card:hover,

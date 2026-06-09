@@ -6,6 +6,7 @@
   left: 0;
   width: 100%;
   z-index: 999;
+  box-shadow: -3px 4px 18.4px 0 rgba(212, 151, 65, 0.25);
 }
 
 .container {

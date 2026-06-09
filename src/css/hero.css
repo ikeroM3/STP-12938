@@ -185,4 +185,11 @@
   .hero-wrapper {
     margin-bottom: 0;
   }
+  .subtitle {
+    font-family: 'Paytone One';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; /* 112.5% */
+  }
 }

@@ -5,22 +5,31 @@ import 'swiper/css/pagination';
 
 const featuresSwiper = document.querySelector('[data-features-swiper]');
 
-if (featuresSwiper) {
-  new Swiper(featuresSwiper, {
-    modules: [Pagination],
+let featuresSwiperInstance = null;
 
-    slidesPerView: 1,
-    spaceBetween: 20,
+function initFeaturesSwiper() {
+  if (!featuresSwiper) return;
 
-    pagination: {
-      el: '[data-features-pagination]',
-      clickable: true,
-    },
+  const isMobile = window.innerWidth < 1440;
 
-    breakpoints: {
-      1440: {
-        enabled: false,
+  if (isMobile && !featuresSwiperInstance) {
+    featuresSwiperInstance = new Swiper(featuresSwiper, {
+      modules: [Pagination],
+      slidesPerView: 1,
+      spaceBetween: 20,
+      pagination: {
+        el: '[data-features-pagination]',
+        clickable: true,
       },
-    },
-  });
+    });
+  }
+
+  if (!isMobile && featuresSwiperInstance) {
+    featuresSwiperInstance.destroy(true, true);
+    featuresSwiperInstance = null;
+  }
 }
+
+initFeaturesSwiper();
+
+window.addEventListener('resize', initFeaturesSwiper);

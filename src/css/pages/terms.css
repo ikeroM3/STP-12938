@@ -1,9 +1,15 @@
 .terms {
   padding: 50px 0;
 }
+
 .header-privat {
-  position: static;
+  position: fixed;
 }
+.privacy-page,
+.terms-page {
+  padding-top: 84px;
+}
+
 .terms-title {
   margin-bottom: 32px;
 

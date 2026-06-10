@@ -13,6 +13,11 @@
     color 0.3s ease;
 }
 .header-privat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
   box-shadow: -3px 4px 18px 0 rgba(212, 151, 65, 0.25);
 }
 
